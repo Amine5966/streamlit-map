@@ -49,7 +49,7 @@ df_valide = df.dropna(subset=['Latitude', 'Longitude'])
 df_valide['Latitude'] = df_valide['Latitude'].astype(float)
 df_valide['Longitude'] = df_valide['Longitude'].astype(float)
 
-hub_location = [33.595, -7.585]
+hub_location = [33.60681000262012, -7.555809154987765]
 
 # Create Map
 m = folium.Map(location=hub_location, zoom_start=11, tiles="cartodbpositron")
